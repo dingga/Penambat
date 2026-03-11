@@ -28,7 +28,7 @@ st.markdown("""
         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     </style>
-    """, unsafe_allow_stdio=True)
+    """, unsafe_allow_html=True)
 
 st.title("🔍 Sistem Deteksi Penambat Rel (YOLOv8)")
 st.write("Aplikasi cerdas untuk mendeteksi jenis penambat dan mengidentifikasi komponen yang hilang pada jalur kereta api.")
@@ -165,3 +165,4 @@ else:
     2. **Tracking**: Menggunakan ID unik untuk setiap objek agar tidak terhitung dua kali.
     3. **Line Counting**: Objek baru akan masuk ke statistik setelah melewati garis referensi biru.
     """)
+
